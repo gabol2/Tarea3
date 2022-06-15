@@ -36,8 +36,6 @@ td, th {
     text-align: center;
 }
 
-
-
 table{
     margin: 0 auto;
     font-family: 'Segoe UI Symbol', sans-serif;
@@ -53,6 +51,12 @@ table{
 .imagen{
     height: 200px;
     border-radius: 5%;
+}
+
+.imagenGrande{
+    height: 300px;
+    border-radius: 5%;
+    margin: 32px;
 }
 
 .textoGrande{
