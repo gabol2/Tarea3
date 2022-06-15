@@ -12,16 +12,31 @@ header{
 }
 
 body{
-    background-color: #dadada;
+    background-image: url(img/flag.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.tabla1{
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-#div1{
-    margin-top: 150px;
-    margin-bottom: 150px;
+td, th {
+    background:rgba(105, 118, 138, 0.6) ;
+   text-align: left;
+   margin: 20px;
+ }
+
+.div1{
+    margin-top: 100px;
     background-color: rgba(148, 63, 63, 0.9);
     text-align: center;
 }
+
+
 
 table{
     margin: 0 auto;
@@ -45,8 +60,47 @@ table{
     text-align: left;
 }
 
+.texto2{
+    font-size: 30px;
+    text-align: left;
+}
+
+.center{
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#lista{
+    margin: 0 auto;
+    padding-left: 30%;
+    text-align: center;
+}
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    display: list-item;
+}
+
+ol li:before {
+    color: #ffffff;
+    content: counter(list) ".";
+    left: -35px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+}
+
+.textoGrande2{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
 footer{
-    height: 150px;
+    margin-top: 100px;
     background-color: rgba(27, 30, 61, 0.9);
 }
 
