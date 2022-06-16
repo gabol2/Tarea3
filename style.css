@@ -6,7 +6,6 @@
 }
 
 header{
-    height: 150px;
     background-color: rgba(27, 30, 61, 0.9);
     text-align: center;
 }
@@ -16,6 +15,12 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+}
+
+p{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .tabla1{
@@ -60,8 +65,13 @@ table{
 }
 
 .textoGrande{
+    color: #ffffff;
     font-size: 50px;
     text-align: left;
+}
+
+a{
+    color: #ffffff;
 }
 
 .texto2{
